@@ -9,7 +9,7 @@ app.use(express.json());
 app.set("view engine", "ejs");
 app.set("views", "views");
 
-const { WEATHER_API_KEY } = process.env;
+let { WEATHER_API_KEY } = process.env;
 
 app.get("/", (req, res) => res.render("index"));
 
