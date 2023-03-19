@@ -1,0 +1,8 @@
+#weatherInfo {
+	width: 500px;
+}
+.search-form {
+	border: none;
+	background-color: none;
+	border-bottom: 1px solid lightgrey;
+}
