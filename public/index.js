@@ -28,7 +28,7 @@ btnGetWeather.addEventListener("click", async (e) => {
 		const humidity = weatherData.main.humidity;
 		const description = weatherData.weather[0].description;
 		const icon = weatherData.weather[0].icon;
-		const iconURL = `http://openweathermap.org/img/w/${icon}.png`;
+		const iconURL = `http://openweathermap.org/img/wn/${icon}.png`;
 		weatherInfo.innerHTML = `
 		<div>
 			<h6>${city}, ${country}</h6>
